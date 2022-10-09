@@ -12,8 +12,8 @@ var Tạo_Ràng_Buộc = (this && this.Tạo_Ràng_Buộc) || (Object.create ? (
 var Chạy_các_modules = (this && this.Chạy_các_modules) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) Tạo_Ràng_Buộc(exports, m, p);
 };
-Chạy_các_modules(require("./Modules/lib/Client.js"), exports);
-Chạy_các_modules(require("./Modules/MainEvents.js"), exports);
-Chạy_các_modules(require("./Modules/Publish02/api.js"), exports);
-Chạy_các_modules(require("./Modules/Publish02/index.js"), exports);
-Chạy_các_modules(require("./Modules/Publish01/Util/Util.js"), exports);
+Chạy_các_modules(require("./lib/Modules/Client.js"), exports);
+Chạy_các_modules(require("./lib/MainEvents.js"), exports);
+Chạy_các_modules(require("./lib/Publish02/api.js"), exports);
+Chạy_các_modules(require("./lib/Publish02/index.js"), exports);
+Chạy_các_modules(require("./lib/Publish01/Util/Util.js"), exports);
