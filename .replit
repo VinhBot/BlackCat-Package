@@ -1,0 +1,4 @@
+run = "npx node ."
+
+[nix]
+channel = "stable-22_05"
