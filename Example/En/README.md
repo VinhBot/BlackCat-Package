@@ -24,7 +24,7 @@ const { DjsVoice: { AudioPlayerStatus, joinVoiceChannel, createAudioResource, /*
 // Look for new npm package updates on bot startup! The latest version will be displayed in the dashboard
 NewUpdate(true);
 ```
-![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/Preview/update.jpg)
+![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/lib/Resources/Preview/update.jpg)
 # <p align="center">Guide</p>
 ```
 Commands
@@ -73,7 +73,7 @@ client.on("messageCreate", async (message) => {
 });
 ```
 # console color
-![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/Preview/demoColors.jpg)
+![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/lib/Resources/Preview/demoColors.jpg)
 ```js
 console.log(`black`.black)
 console.log(`red`.red)

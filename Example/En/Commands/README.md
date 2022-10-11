@@ -6,7 +6,7 @@
 
 # <p align="center">Simply Commands</p>
 # Buttons
-![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/Preview/pages.jpg)
+![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/lib/Resources/Preview/pages.jpg)
 ```js
 const { Commands: { EmbedPages }, EmbedBuilder } = require("blackcat-club");
 let Embed1 = new EmbedBuilder().setDescription("Page1").setColor("Random")

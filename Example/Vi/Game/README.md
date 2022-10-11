@@ -7,7 +7,7 @@
 # <p align="center">Game Commands</p>
 `Các lệnh game mà package hỗ trợ, chúc các bạn chơi game vui vẻ`
 # ConnectFour
-![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/Preview/connect4.jpg)
+![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/lib/Resources/Preview/connect4.jpg)
 ```js
 const { Game: { ConnectFour }} = require("blackcat-club");
 
@@ -19,7 +19,7 @@ const game = new ConnectFour({
 game.start()
 ```
 # SnakeGame
-![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/Preview/snake.jpg)
+![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/lib/Resources/Preview/snake.jpg)
 ```js
 const { Game: { SnakeGame }} = require("blackcat-club");
 

@@ -24,7 +24,7 @@ const { DjsVoice: { AudioPlayerStatus, joinVoiceChannel, createAudioResource, /*
 // Tìm kiếm các bản cập nhật gói npm mới khi khởi động bot! Phiên bản mới nhất sẽ được hiển thị trong bảng điều khiển
 NewUpdate(true);
 ```
-![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/Preview/update.jpg)
+![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/lib/Resources/Preview/update.jpg)
 # <p align="center">Hướng Dẫn</p>
 ```
 các lệnh commands
@@ -74,7 +74,7 @@ client.on("messageCreate", async (message) => {
 });
 ```
 # màu console
-![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/Preview/demoColors.jpg)
+![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/lib/Resources/Preview/demoColors.jpg)
 ```js
 console.log(`black`.black)
 console.log(`red`.red)
