@@ -1,0 +1,24 @@
+{
+  "consolez": {   
+     "logz": "vinh đẹp trai bố đời thế"
+  }, 
+  "Modules": {
+    "Game": {
+       "snake": {
+         "snake_1": "Bạn không được phép sử dụng các nút cho tin nhắn này!",
+         "snake_2": "**Điểm:**"
+       },
+       "connect4": {
+         "connect4_1": "Thiếu đối số: message",
+         "connect4_2": "Bạn muốn chơi ConnectFour với ai?, Đề cập đến người mà bạn muốn chơi cùng",
+         "connect4_3": "{connect4__1} Đến lượt bạn, {connect4__2}!",
+         "connect4_4": "**{connect4__3}, cột đó đã đầy. Chọn một cái khác**",
+         "connect4_5": "Trò chơi kết thúc",
+         "connect4_6": "Hoà game", 
+         "connect4_7": "{connect4__4} đã thắng trò chơi",
+         "connect4_8": "{connect4__5} Thắng",
+         "connect4_9": "{connect4__6} - Đến lượt bạn, {connect4__7}!"
+       }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "consolez": {   
+     "logz": "Vinh is so handsome"
+  }, 
+  "Modules": {
+    "Game": {
+       "snake": {
+          "snake_1": "You are not allow the use the node for this message!",
+          "snake_2": "**Poin:**"
+       },
+       "connect4": {
+         "connect4_1": "Missing argument: message",
+         "connect4_2": "Who do you want to play ConnectFour with?, Mention who you want to play with",
+         "connect4_3": "{connect4__1} Your turn, {connect4__2}!",
+         "connect4_4": "**{connect4__3}, that column is full. Choose another one**",
+         "connect4_5": "The game ends",
+         "connect4_6": "Tie game", 
+         "connect4_7": "{connect4__4} won the game",
+         "connect4_8": "{connect4__5} Win",
+         "connect4_9": "{connect4__6} - Your turn, {connect4__7}!"
+       }
+    }
+  }
+}
