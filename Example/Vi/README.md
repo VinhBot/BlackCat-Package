@@ -12,7 +12,7 @@
 + `List hỗ trợ: Ranking, Economy, Game, Buttons, Menu, Databases ...`
 
 # <p align="center">Các phụ thuộc:</p>
-- [`Discord = discord.js`](https://github.com/discordjs/discord.js)
+- [`Embed, button ... = discord.js`](https://github.com/discordjs/discord.js)
 ```js
 const { Client, EmbedBuilder, /* Vân vân ...*/ } = require("blackcat-club"); // discord.js
 ```
