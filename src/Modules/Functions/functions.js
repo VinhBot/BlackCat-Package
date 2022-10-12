@@ -53,14 +53,14 @@ const NewUpdate = function(Dinh_dang = true) {
     async function kiem_tra_update() {
       if (!require("node-fetch")) return;
       const Du_lieu_goi = await require("node-fetch")(`https://registry.npmjs.com/blackcat-club`).then((van_ban) => van_ban.json());
-      if (require("../package.json").version !== Du_lieu_goi["dist-tags"].latest) {
+      if (require("../../../package.json").version !== Du_lieu_goi["dist-tags"].latest) {
         console.log("\n\n");
         console.log("\x1b[32m" + "---------------------------------------");
         console.log("\x1b[32m" + "|          @blackcat-club      - [] X |");
         console.log("\x1b[32m" + "---------------------------------------");
         console.log("\x1b[33m" + `|         Mô-đun đã lỗi thời!\x1b[33m         |`);
         console.log("\x1b[35m" + "|       Phiên bản mới đã có sẵn!      |");
-        console.log("\x1b[34m" + `|          ${require("../package.json").version} --> ${Du_lieu_goi["dist-tags"].latest}           |`);
+        console.log("\x1b[34m" + `|          ${require("../../../package.json").version} --> ${Du_lieu_goi["dist-tags"].latest}           |`);
         console.log("\x1b[36m" + '|       Chạy "npm i blackcat-club"    |');
         console.log("\x1b[36m" + "|            để cập nhật!             |");
         console.log("\x1b[37m" + `|   Xem lại thay đổi trong hướng dẫn  |`);
