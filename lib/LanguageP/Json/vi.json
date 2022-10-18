@@ -19,6 +19,18 @@
          "connect4_8": "{connect4__5} Thắng",
          "connect4_9": "{connect4__6} - Đến lượt bạn, {connect4__7}!"
        }
-    }
+    },
+    "Functions": {    
+       "Addrole": {
+         "error_addrole": "lỗi: vai trò cao hơn tôi",
+         "addrole_1": "Bạn đã có vai trò {addrole__1}. Loại bỏ nó ngay",
+         "addrole_2": "Đã giao cho bạn vai trò {addrole__2} | ID: {addrole__3}",
+         "addrole_3": "KHÔNG CÓ DỮ LIỆU ĐƯỢC CUNG CẤP. Bạn không chỉ định bất kỳ dữ liệu nào để tạo nút ..",
+         "addrole_4": "Bạn cần quyền `ADMINISTRATOR` để sử dụng lệnh slash này",
+         "addrole_5": "KHÔNG ĐƯỢC CHỈ ĐỊNH CỤ THỂ. Bạn đã không chỉ định một bản embed cho tôi để gửi..\nTạo một bản embed mới và chỉ định.",
+         "addrole_6": "Tối đa 25 vai trò được chấp nhận .. Vượt quá nó sẽ gây ra lỗi.\nDiscord chỉ cho phép 25 nút trong một tin nhắn. Gửi tin nhắn mới với nhiều nút hơn",
+         "addrole_7": "Bạn chưa chỉ định 1 id role hợp lệ"
+       }
+    } 
   }
 }

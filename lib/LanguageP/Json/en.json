@@ -19,6 +19,18 @@
          "connect4_8": "{connect4__5} Win",
          "connect4_9": "{connect4__6} - Your turn, {connect4__7}!"
        }
-    }
+    },
+    "Functions": {    
+       "Addrole": {
+         "error_addrole": "ERROR: Role is higher than me.",
+         "addrole_1": "You already have the role {addrole__1}. Removing it now",
+         "addrole_2": "Gave you the role {addrole__2} | ID: {addrole__3}",
+         "addrole_3": "NO_DATA. You didnt specify any data to make buttons..",
+         "addrole_4": "You need `ADMINISTRATOR` permission to use this slash command",
+         "addrole_5": "You didnt specify any embed to me to send..\nCreate a new embed and specify.",
+         "addrole_6": "Max 25 roles accepted.. Exceeding it will cause errors.\nDiscord allows only 25 buttons in a message. Send a new message with more buttons", 
+         "addrole_7": "You have not specified a valid role id"
+       }
+    } 
   }
 }
