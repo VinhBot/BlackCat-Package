@@ -18,6 +18,27 @@
          "connect4_7": "{connect4__4} đã thắng trò chơi",
          "connect4_8": "{connect4__5} Thắng",
          "connect4_9": "{connect4__6} - Đến lượt bạn, {connect4__7}!"
+       },
+       "rps": {
+         "rps_1": "Thiếu đối số: message",
+         "rps_2": "{winner} là người chiến thắng!",
+         "rps_3": "Trận đấu hoà.",
+         "rps_4": "Hết thời gian", 
+         "rps_5": "Đề cập đến người dùng bạn muốn chơi cùng.", 
+         "rps_6": "đá",
+         "rps_7": "giấy",
+         "rps_8": "kéo",
+         "rps_9": "Lựa chọn của bạn: {rps__1}\nAI: {rps__2}\n\nNgười chiến thắng: BlackCat",
+         "rps_10": "Lựa chọn của bạn: {rps__3}\nAI: {rps__4}\n\nNgười chiến thắng: {rps__5}",
+         "rps_11": "Lựa chọn của bạn: {rps__6}\nAI: {rps__7}\n\nNgười chiến thắng: Hoà",
+         "rps_12": "Bạn đã chọn câu trả lời của mình",
+         "rps_13": "Bạn đã chọn {rps__8}",
+         "rps_14": "Bạn đã chọn câu trả lời của mình.",
+         "rps_15": "Bạn đã chọn ${rps__9}",
+         "rps_16": "{rps__10} Đã chọn: {rps__11}\n{rps__12} Đã chọn: {rps__13}\n\nNgười chiến thắng: {rps__14}",
+         "rps_17": "{rps__15} Đã chọn: {rps__16}\n{rps__17} Đã chọn: {rps__18}\n\nNgười chiến thắng: Hoà game",
+         "rps_18": "Các nút này không dành cho bạn!",
+         "rps_19": "Trò chơi đã kết thúc"
        }
     },
     "Functions": {    

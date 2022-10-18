@@ -18,6 +18,27 @@
          "connect4_7": "{connect4__4} won the game",
          "connect4_8": "{connect4__5} Win",
          "connect4_9": "{connect4__6} - Your turn, {connect4__7}!"
+       }, 
+       "rps": {
+         "rps_1": "Missing argument: message",
+         "rps_2": "{winner} is the winner!",
+         "rps_3": "Its a tie.",
+         "rps_4": "time out", 
+         "rps_5": "Mention the user you want to play with.", 
+         "rps_6": "rock",
+         "rps_7": "paper",
+         "rps_8": "scissors",
+         "rps_9": "Your Answer: {rps__1}\nAI: {rps__2}\n\nWinner: BlackCat",
+         "rps_10": "Your Answer: {rps__3}\nAI: {rps__4}\n\nWinner: {rps__5}",
+         "rps_11": "Your Answer: {rps__6}\nAI: {rps__7}\n\nWinner: NoOne",
+         "rps_12": "You have already chosen your answer",
+         "rps_13": "You choosed {rps__8}",
+         "rps_14": "You have already chosen your answer.",
+         "rps_15": "You choosed ${rps__9}",
+         "rps_16": "{rps__10}'s Answer: {rps__11}\n{rps__12}'s Answer: {rps__13}\n\nWinner: {rps__14}",
+         "rps_17": "{rps__15}'s Answer: {rps__16}\n{rps__17}'s Answer: {rps__18}\n\nWinner: Tie",
+         "rps_18": "These buttons aren't for you!",
+         "rps_19": "Game Ended"
        }
     },
     "Functions": {    
