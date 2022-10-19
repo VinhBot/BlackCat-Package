@@ -21,8 +21,10 @@ const { Client, EmbedBuilder, /* Vân vân ...*/ } = require("blackcat-club"); /
 const { DjsVoice: { AudioPlayerStatus, joinVoiceChannel, createAudioResource, /* vân vân...*/}} = require("blackcat-club"); // @discordjs/voice
 ```
 ```js
+setDefaultSetting({
+  events bên dưới phần hướng dẫn
+})
 // Tìm kiếm các bản cập nhật gói npm mới khi khởi động bot! Phiên bản mới nhất sẽ được hiển thị trong bảng điều khiển
-NewUpdate(true);
 ```
 ![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/lib/Resources/Preview/update.jpg)
 # <p align="center">Hướng Dẫn</p>
@@ -36,23 +38,19 @@ các lệnh commands
 +  [Game Cmds](https://github.com/VinhBot/BlackCat-Package/blob/main/Example/Vi/Game/README.md) 🎮
 # <p align="center">Package Run</p>
 ```js
-const { BlackCat, activity, setMongoURL, Collection, /*....*/ } = require("blackcat-club");
-const client = new BlackCat("token bot của bạn", {
-  Reply: true // có // fasle không // tag tin nhắn thành viên gởi 
-});
-setMongoURL(mongourl); // nếu bạn sử dụng ranking hoặc economy
+const { BlackCat, Collection, setDefaultSetting /*....*/ } = require("blackcat-club");
+const client = new BlackCat("token bot của bạn");
 // xem bot đã hoạt động hay là chưa 
 client.on("ready", () => {
     console.log(client.user.username + " is ready 😊".blue);
-    activity(client, {
-      statuses: [
-        `status 1`, 
-        `status 2`,
-        `Giới hạn 5 status`
-      ], Type: "Playing"
-    });
 });
 
+setDefaultSetting({
+   setMongoURL: "mongourl", // thiết lập kết nối mongodb
+   setLanguage: "vi", // cài đặt ngôn ngữ của package
+   setNewUpdate: true, // nhận trong báo khi có bản cập nhật mới
+});
+  
 // prefix: tiền tố để gọi bot
 const config = {
    "prefix": "prefix của bạn"

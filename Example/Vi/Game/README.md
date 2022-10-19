@@ -45,3 +45,18 @@ const snake =  new SnakeGame({
 })
 snake.startGame();
 ```
+# RockPaperScissors
+```js
+const { Game: { RockPaperScissors }} = require("blackcat-club");
+const game = new RockPaperScissors({
+   message: message, // messageCreate
+});
+game.start()
+```
+
+# TicTacToe
+```js
+const { Game: { TicTacToe }} = require("blackcat-club");
+const game = new TicTacToe();
+game.handleMessage(message); // messageCreate
+```

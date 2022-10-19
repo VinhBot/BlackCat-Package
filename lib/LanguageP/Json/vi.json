@@ -1,8 +1,21 @@
 {
   "consolez": {   
+     "Test_Language": "😽",
      "logz": "vinh đẹp trai bố đời thế"
   }, 
   "Modules": {
+    "Functions": {    
+       "Addrole": {
+         "error_addrole": "lỗi: vai trò cao hơn tôi",
+         "addrole_1": "Bạn đã có vai trò {addrole__1}. Loại bỏ nó ngay",
+         "addrole_2": "Đã giao cho bạn vai trò {addrole__2} | ID: {addrole__3}",
+         "addrole_3": "KHÔNG CÓ DỮ LIỆU ĐƯỢC CUNG CẤP. Bạn không chỉ định bất kỳ dữ liệu nào để tạo nút ..",
+         "addrole_4": "Bạn cần quyền `ADMINISTRATOR` để sử dụng lệnh slash này",
+         "addrole_5": "KHÔNG ĐƯỢC CHỈ ĐỊNH CỤ THỂ. Bạn đã không chỉ định một bản embed cho tôi để gửi..\nTạo một bản embed mới và chỉ định.",
+         "addrole_6": "Tối đa 25 vai trò được chấp nhận .. Vượt quá nó sẽ gây ra lỗi.\nDiscord chỉ cho phép 25 nút trong một tin nhắn. Gửi tin nhắn mới với nhiều nút hơn",
+         "addrole_7": "Bạn chưa chỉ định 1 id role hợp lệ"
+       }
+    },
     "Game": {
        "snake": {
          "snake_1": "Bạn không được phép sử dụng các nút cho tin nhắn này!",
@@ -39,19 +52,34 @@
          "rps_17": "{rps__15} Đã chọn: {rps__16}\n{rps__17} Đã chọn: {rps__18}\n\nNgười chiến thắng: Hoà game",
          "rps_18": "Các nút này không dành cho bạn!",
          "rps_19": "Trò chơi đã kết thúc"
+       }, 
+       "tictactoe": {
+         "tictactoe_1": "Chơi một ván cờ caro",
+         "tictactoe_2": "Người mà bạn muốn chơi cùng",
+         "tictactoe_3": "bạn không thể bắt đầu trò chơi khác, vui lòng đợi trò chơi hiện tại kết thúc.",
+         "tictactoe_4": "Bạn không thể thách đấu **{username}**. Hãy kiếm một người khác.",
+         "tictactoe_5": "bạn không thể thách đấu với bots.",
+         "tictactoe_6": ":game_die: `{tictactoe__1}` **VS** `{tictactoe__2}`",
+         "tictactoe_7": ":robot: Máy đang chơi, chờ chút nha...",
+         "tictactoe_8": "Đang tải reactions, chờ chút nha...",
+         "tictactoe_9": "{tictactoe__3}, lựa chọn lượt đi của bạn:",
+         "tictactoe_10": ":tada: {tictactoe__4} đã thắng ván đấu!",
+         "tictactoe_11": "Không ai thắng màn thách đấu này. Thử lại chứ?",
+         "tictactoe_12": "**{tictactoe__5}** vừa thách đấu bạn!",
+         "tictactoe_13": "Thả cảm xúc vào tin nhắn này để chấp nhận hoặc từ chối lời mời.",
+         "tictactoe_14": "Chấp nhận",
+         "tictactoe_15": "Từ chối",
+         "tictactoe_16": ":crossed_swords: Lời thách đấu mới",
+         "tictactoe_17": ":x: `{tictactoe__6}` đã từ chối lời mời của bạn.",
+         "tictactoe_18": ":x: `{tictactoe__7}` đã không phản hồi gì về lời mời của bạn.",
+         "tictactoe_19": ":x: Ván đấu đã **hết giờ**... Bởi vì một người đã không tương tác.",
+         "tictactoe_20": "Không thể hoạt động do thiếu quyền trong kênh #{tictactoe__8}",
+         "tictactoe_21": "BlackCat",
+         "tictactoe_22": "Không thể đăng ký sự kiện {tictactoe__9} vì nó không tồn tại",
+         "tictactoe_23": "Yêu cầu /{tictactoe__10} đã được đăng ký.",
+         "tictactoe_24": "Yêu cầu /{tictactoe__11} chưa được đăng ký.",
+         "tictactoe_25": "Yêu cầu /{tuctactoe__12} không tìm thấy."
        }
-    },
-    "Functions": {    
-       "Addrole": {
-         "error_addrole": "lỗi: vai trò cao hơn tôi",
-         "addrole_1": "Bạn đã có vai trò {addrole__1}. Loại bỏ nó ngay",
-         "addrole_2": "Đã giao cho bạn vai trò {addrole__2} | ID: {addrole__3}",
-         "addrole_3": "KHÔNG CÓ DỮ LIỆU ĐƯỢC CUNG CẤP. Bạn không chỉ định bất kỳ dữ liệu nào để tạo nút ..",
-         "addrole_4": "Bạn cần quyền `ADMINISTRATOR` để sử dụng lệnh slash này",
-         "addrole_5": "KHÔNG ĐƯỢC CHỈ ĐỊNH CỤ THỂ. Bạn đã không chỉ định một bản embed cho tôi để gửi..\nTạo một bản embed mới và chỉ định.",
-         "addrole_6": "Tối đa 25 vai trò được chấp nhận .. Vượt quá nó sẽ gây ra lỗi.\nDiscord chỉ cho phép 25 nút trong một tin nhắn. Gửi tin nhắn mới với nhiều nút hơn",
-         "addrole_7": "Bạn chưa chỉ định 1 id role hợp lệ"
-       }
-    } 
+    }
   }
 }

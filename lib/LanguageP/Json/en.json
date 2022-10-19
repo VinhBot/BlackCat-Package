@@ -1,8 +1,21 @@
 {
   "consolez": {   
+     "Test_Language": "😽",
      "logz": "Vinh is so handsome"
   }, 
   "Modules": {
+    "Functions": {    "Functions": {    
+       "Addrole": {
+         "error_addrole": "ERROR: Role is higher than me.",
+         "addrole_1": "You already have the role {addrole__1}. Removing it now",
+         "addrole_2": "Gave you the role {addrole__2} | ID: {addrole__3}",
+         "addrole_3": "NO_DATA. You didnt specify any data to make buttons..",
+         "addrole_4": "You need `ADMINISTRATOR` permission to use this slash command",
+         "addrole_5": "You didnt specify any embed to me to send..\nCreate a new embed and specify.",
+         "addrole_6": "Max 25 roles accepted.. Exceeding it will cause errors.\nDiscord allows only 25 buttons in a message. Send a new message with more buttons", 
+         "addrole_7": "You have not specified a valid role id"
+       }
+    },    
     "Game": {
        "snake": {
           "snake_1": "You are not allow the use the node for this message!",
@@ -28,9 +41,9 @@
          "rps_6": "rock",
          "rps_7": "paper",
          "rps_8": "scissors",
-         "rps_9": "Your Answer: {rps__1}\nAI: {rps__2}\n\nWinner: BlackCat",
+         "rps_9": "Your Answer: {rps__1}\nAI: {rps__2}\n\nWinner: AI",
          "rps_10": "Your Answer: {rps__3}\nAI: {rps__4}\n\nWinner: {rps__5}",
-         "rps_11": "Your Answer: {rps__6}\nAI: {rps__7}\n\nWinner: NoOne",
+         "rps_11": "Your Answer: {rps__6}\nAI: {rps__7}\n\nWinner: Tie",
          "rps_12": "You have already chosen your answer",
          "rps_13": "You choosed {rps__8}",
          "rps_14": "You have already chosen your answer.",
@@ -39,19 +52,34 @@
          "rps_17": "{rps__15}'s Answer: {rps__16}\n{rps__17}'s Answer: {rps__18}\n\nWinner: Tie",
          "rps_18": "These buttons aren't for you!",
          "rps_19": "Game Ended"
+       },
+       "tictactoe": {
+         "tictactoe_1": "Play a game of checkers",
+         "tictactoe_2": "The person you want to play with",
+         "tictactoe_3": "you can't start another game, please wait for the current game to finish.",
+         "tictactoe_4": "You can't challenge **{username}**. Let's find someone else.",
+         "tictactoe_5": "you can't challenge bots.",
+         "tictactoe_6": ":game_die: `{tictactoe__1}` **VS** `{tictactoe__2}`",
+         "tictactoe_7": ":robot: The AI is playing, wait a moment...",
+         "tictactoe_8": "Loading reactions, wait a moment...",
+         "tictactoe_9": "{tictactoe__3}, choose your turn:",
+         "tictactoe_10": ":tada: {tictactoe__4} won the game!",
+         "tictactoe_11": "No one won this challenge. Try again?",
+         "tictactoe_12": "**{tictactoe__5}** just challenged you!",
+         "tictactoe_13": "Drop your emotions in this message to accept or decline the invitation.",
+         "tictactoe_14": "Accept",
+         "tictactoe_15": "decline",
+         "tictactoe_16": ":crossed_swords: New challenge",
+         "tictactoe_17": ":x: `{tictactoe__6}` declined your invitation.",
+         "tictactoe_18": ":x: `{tictactoe__7}` did not respond to your invitation.",
+         "tictactoe_19": ":x: The game was **timed out**... Because one person didn't interact.",
+         "tictactoe_20": "Can't work due to lack of permission in channel #{tictactoe__8}",
+         "tictactoe_21": "AI",
+         "tictactoe_22": "Cannot register event {tictactoe__9} because it does not exist",
+         "tictactoe_23": "Command /{tictactoe__10} has been registered.",
+         "tictactoe_24": "Command /{tuctactoe__11} has been unregistered.",
+         "tictactoe_25": "Command /{tuctactoe__12} not found."
        }
-    },
-    "Functions": {    
-       "Addrole": {
-         "error_addrole": "ERROR: Role is higher than me.",
-         "addrole_1": "You already have the role {addrole__1}. Removing it now",
-         "addrole_2": "Gave you the role {addrole__2} | ID: {addrole__3}",
-         "addrole_3": "NO_DATA. You didnt specify any data to make buttons..",
-         "addrole_4": "You need `ADMINISTRATOR` permission to use this slash command",
-         "addrole_5": "You didnt specify any embed to me to send..\nCreate a new embed and specify.",
-         "addrole_6": "Max 25 roles accepted.. Exceeding it will cause errors.\nDiscord allows only 25 buttons in a message. Send a new message with more buttons", 
-         "addrole_7": "You have not specified a valid role id"
-       }
-    } 
+    }
   }
 }

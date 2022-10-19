@@ -18,7 +18,7 @@ EmbedPages(message, embeds, {
     // but1: corresponds to custom emojis, leave blank to use default emoji
     but1: "", // First
     but2: "", // Before
-    but3: "", // Xoá bỏ
+    but3: "", // Delete
     but4: "", // Next
     but5: "", // final
     butColor: "", // color of move node
