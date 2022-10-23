@@ -23,7 +23,7 @@ ${await client.donvitiente( code... )}
 // money = amount 
 ${await client.donvitiente(money)}
 ```
-![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/Preview/donvitiente.jpg)
+![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/lib/Resources/Preview/donvitiente.jpg)
 
 + `Áp dụng với từng server`
 ```js

@@ -25,4 +25,13 @@ EmbedPages(message, embeds, {
     butColor: "" // màu của nút xoá
 });
 ```
-# ......
+# animalPictures.
++ note: Các loại hình ảnh động, thực vật, ....
+```js
+const { Commands: { compositeImage }} = require("blackcat-club");
+new compositeImage.<etc()>;
+console.log(await etc());
+```
++ `Danh sách ảnh hỗ trợ:`
++ `Animal: cat, dog, koala, lizard, bird, fox, bunny, panda, raccoon, kangaroo, duck, turtle, redpanda.`
++ `anime gif: baka`

@@ -20,10 +20,7 @@ const { Client, EmbedBuilder, /* etc ...*/} = require("blackcat-club"); // disco
 ```js
 const { DjsVoice: { AudioPlayerStatus, joinVoiceChannel, createAudioResource, /* vân vân...*/}} = require("blackcat-club"); // @discordjs/voice
 ```
-```js
-// Look for new npm package updates on bot startup! The latest version will be displayed in the dashboard
-NewUpdate(true);
-```
++ `automatically notified when a new update is available`
 ![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/lib/Resources/Preview/update.jpg)
 # <p align="center">Guide</p>
 ```
@@ -36,25 +33,20 @@ Commands
 +  [Game Cmds](https://github.com/VinhBot/BlackCat-Package/blob/main/Example/En/Game/README.md) 🎮
 # <p align="center">Package Run</p>
 ```js
-const { BlackCat, activity, Collection, /*....*/ } = require("blackcat-club");
-const client = new BlackCat("your bot token", {
-  Reply: false // Reply to the message you sent in the form 
+const { BlackCat, Collection, /*.....*/ } = require("blackcat-club");
+const client = new BlackCat({
+  setToken: "token bot", // Set up the bot's token
+  setMongoURL: "mongourl", // establish mongodb connection
+  setLanguage: "vi", // language setting of package vi = Vietnamese, en = English
+  setNewUpdate: true, // true on or flase off, get notification when new update is available
 });
-setMongoURL(mongourl); // if you use ranking or economy
 // see if the bot is working or not 
 client.on("ready", () => {
     console.log(client.user.username + " is ready 😊".blue);
-    activity(client, {
-      statuses: [
-        `status 1`, 
-        `status 2`,
-        `Giới hạn 5 status`
-      ], Type: "Playing"
-    });
 });
-
+// prefix: prefix to call bot
 const config = {
-   "prefix": "your prefix",
+   "prefix": "your prefix"
 };
 // messageCreate
 client.on("messageCreate", async (message) => {
@@ -62,14 +54,9 @@ client.on("messageCreate", async (message) => {
 	if (!message.content.startsWith(config.prefix)) return;
 	const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
 	const command = args.shift();
-
   if (command === 'ping') {
 		message.reply("my ping is: " + client.ws.ping);
 	};
-  if (command === 'name') {
-     // code
-  };
-  
 });
 ```
 # console color

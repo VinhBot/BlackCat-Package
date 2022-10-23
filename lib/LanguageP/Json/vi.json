@@ -14,6 +14,10 @@
          "addrole_5": "KHÔNG ĐƯỢC CHỈ ĐỊNH CỤ THỂ. Bạn đã không chỉ định một bản embed cho tôi để gửi..\nTạo một bản embed mới và chỉ định.",
          "addrole_6": "Tối đa 25 vai trò được chấp nhận .. Vượt quá nó sẽ gây ra lỗi.\nDiscord chỉ cho phép 25 nút trong một tin nhắn. Gửi tin nhắn mới với nhiều nút hơn",
          "addrole_7": "Bạn chưa chỉ định 1 id role hợp lệ"
+       },
+       "setMongoURL": {
+         "mongo_1": "Kết nối Mongodb thành công",
+         "mongo_2": "đã sảy ra lỗi khi kết nối mongodb"
        }
     },
     "Game": {
@@ -72,9 +76,9 @@
          "tictactoe_16": ":crossed_swords: Lời thách đấu mới",
          "tictactoe_17": ":x: `{tictactoe__6}` đã từ chối lời mời của bạn.",
          "tictactoe_18": ":x: `{tictactoe__7}` đã không phản hồi gì về lời mời của bạn.",
-         "tictactoe_19": ":x: Ván đấu đã **hết giờ**... Bởi vì một người đã không tương tác.",
+         "tictactoe_19": ":x: Ván đấu đã **hết giờ**... Bởi vì người chơi đã không tương tác.",
          "tictactoe_20": "Không thể hoạt động do thiếu quyền trong kênh #{tictactoe__8}",
-         "tictactoe_21": "BlackCat",
+         "tictactoe_21": "Bot",
          "tictactoe_22": "Không thể đăng ký sự kiện {tictactoe__9} vì nó không tồn tại",
          "tictactoe_23": "Yêu cầu /{tictactoe__10} đã được đăng ký.",
          "tictactoe_24": "Yêu cầu /{tictactoe__11} chưa được đăng ký.",

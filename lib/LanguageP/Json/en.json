@@ -4,7 +4,7 @@
      "logz": "Vinh is so handsome"
   }, 
   "Modules": {
-    "Functions": {    "Functions": {    
+    "Functions": { 
        "Addrole": {
          "error_addrole": "ERROR: Role is higher than me.",
          "addrole_1": "You already have the role {addrole__1}. Removing it now",
@@ -14,6 +14,10 @@
          "addrole_5": "You didnt specify any embed to me to send..\nCreate a new embed and specify.",
          "addrole_6": "Max 25 roles accepted.. Exceeding it will cause errors.\nDiscord allows only 25 buttons in a message. Send a new message with more buttons", 
          "addrole_7": "You have not specified a valid role id"
+       },
+       "setMongoURL": {
+         "mongo_1": "Mongodb connection successful",
+         "mongo_2": "there was an error connecting mongodb"
        }
     },    
     "Game": {

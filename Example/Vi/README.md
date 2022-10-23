@@ -20,12 +20,7 @@ const { Client, EmbedBuilder, /* Vân vân ...*/ } = require("blackcat-club"); /
 ```js
 const { DjsVoice: { AudioPlayerStatus, joinVoiceChannel, createAudioResource, /* vân vân...*/}} = require("blackcat-club"); // @discordjs/voice
 ```
-```js
-setDefaultSetting({
-  events bên dưới phần hướng dẫn
-})
-// Tìm kiếm các bản cập nhật gói npm mới khi khởi động bot! Phiên bản mới nhất sẽ được hiển thị trong bảng điều khiển
-```
++ `Hiển thị thông báo khi có phiên bản mới`
 ![Demo](https://raw.githubusercontent.com/VinhBot/BlackCat-Package/main/lib/Resources/Preview/update.jpg)
 # <p align="center">Hướng Dẫn</p>
 ```
@@ -38,19 +33,17 @@ các lệnh commands
 +  [Game Cmds](https://github.com/VinhBot/BlackCat-Package/blob/main/Example/Vi/Game/README.md) 🎮
 # <p align="center">Package Run</p>
 ```js
-const { BlackCat, Collection, setDefaultSetting /*....*/ } = require("blackcat-club");
-const client = new BlackCat("token bot của bạn");
+const { BlackCat, Collection, /*.....*/ } = require("blackcat-club");
+const client = new BlackCat({
+  setToken: "token bot", // thiết lập token của bot
+  setMongoURL: "mongourl", // thiết lập kết nối mongodb
+  setLanguage: "vi", // cài đặt ngôn ngữ của package vi = tiếng việt, en = tiếng anh
+  setNewUpdate: true, // true bật hoặc flase tắt, nhận trong báo khi có bản cập nhật mới
+});
 // xem bot đã hoạt động hay là chưa 
 client.on("ready", () => {
     console.log(client.user.username + " is ready 😊".blue);
 });
-
-setDefaultSetting({
-   setMongoURL: "mongourl", // thiết lập kết nối mongodb
-   setLanguage: "vi", // cài đặt ngôn ngữ của package
-   setNewUpdate: true, // nhận trong báo khi có bản cập nhật mới
-});
-  
 // prefix: tiền tố để gọi bot
 const config = {
    "prefix": "prefix của bạn"
@@ -61,14 +54,9 @@ client.on("messageCreate", async (message) => {
 	if (!message.content.startsWith(config.prefix)) return;
 	const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
 	const command = args.shift();
-
   if (command === 'ping') {
 		message.reply("ping của tôi là: " + client.ws.ping);
 	};
-  if (command === 'name') {
-     // code
-  };
-  
 });
 ```
 # màu console
