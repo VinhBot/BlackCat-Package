@@ -28,10 +28,9 @@ EmbedPages(message, embeds, {
 # animalPictures.
 + note: Các loại hình ảnh động, thực vật, ....
 ```js
-const { Commands: { compositeImage }} = require("blackcat-club");
-new compositeImage.<etc()>;
-console.log(await etc());
+const { Commands: { compositeImage, dataImage }} = require("blackcat-club");
+console.log(`${await compositeImage({ setImageFormat: dataImage.<tùy chọn, ví dụ: dataImage.cat, dog ...> })}`);
 ```
 + `Danh sách ảnh hỗ trợ:`
-+ `Animal: cat, dog, koala, lizard, bird, fox, bunny, panda, raccoon, kangaroo, duck, turtle, redpanda.`
++ `Animal: cat, dog, lizard, raccoon, duck, turtle, redpanda.`
 + `anime gif: baka`

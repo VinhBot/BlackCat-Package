@@ -19,9 +19,9 @@
 </div>
 
 # <p align="center">🇻🇳 Hướng dẫn tiếng Việt</p>
-+ [Bấm vào đây](https://github.com/VinhBot/blackcat-club/blob/main/Example/Vi/README.md) 📚
++ [Bấm vào đây](https://github.com/VinhBot/blackcat-Package/blob/main/Example/Vi/README.md) 📚
 # <p align="center">🇦🇺 English guide</p>
-+ [Click here](https://github.com/VinhBot/blackcat-club/blob/main/Example/En/README.md) 📚
++ [Click here](https://github.com/VinhBot/blackcat-Package/blob/main/Example/En/README.md) 📚
 
 + [source code modified and published by: nguyenvinh](https://github.com/VinhBot/VinhBot)
 + [The source code is owned by discordjs](https://github.com/discordjs)

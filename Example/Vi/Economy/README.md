@@ -3,17 +3,20 @@
 # <p align="center">BlackCat-Economy</p>
 # Khởi đầu
 ```js
-const { Commands: { Economy }} = require("blackcat-club");
-client.cs = new Economy(); // bắt buộc 
-const { vietnam, setMongoURL, setMaxWalletAmount, setDefaultBankAmount, setMaxBankAmount, setDefaultWalletAmount } = client.cs; // bắt buộc // giúp rút gọn thời gian code
+const { Commands } = require("blackcat-club");
+client.cs = new Commands.Economy();
+const { setDefaultSettings, vietnam } = client.cs;
 client.donvitiente = vietnam; // vietnam có thể thay đổi // việt nam là đơn vị tiền tệ của việt nam theo tỉ giá VND
-// Đặt Số tiền Ngân hàng Mặc định khi người dùng mới được tạo!
-setDefaultBankAmount(1000); // ngân hàng // bắt buộc
-setDefaultWalletAmount(1000); // ví tiền // bắt buộc
-// Giới hạn không gian ngân hàng của nó (có thể được thay đổi theo mỗi người dùng) ở đây 0 có nghĩa là vô hạn.
-setMaxBankAmount(10000); // bắt buộc
-// Đặt số tiền tối đa mặc định của đơn vị tiền tệ trong ví mà người dùng có thể có! (có thể thay đổi tùy theo mỗi người dùng) ở đây 0 có nghĩa là vô hạn
-setMaxWalletAmount(10000); // bắt buộc
+setDefaultSettings({
+  // Giới hạn không gian ngân hàng của nó (có thể được thay đổi theo mỗi người dùng) ở đây 0 có nghĩa là vô hạn.
+  setMaxBankAmount: 0,
+  // Đặt số tiền tối đa mặc định trong ví mà người dùng có thể có! (có thể thay đổi tùy theo mỗi người dùng) ở đây 0 có nghĩa là vô hạn
+  setMaxWalletAmount: 1000,
+  // Đặt Số tiền Ngân hàng Mặc định khi người dùng mới được tạo!
+  setDefaultBankAmount: 1000,
+  // đặt số tiền mặc định trong ví tiền khi người dùng được tạo!
+  setDefaultWalletAmount: 1000,
+});
 ```
 ## Đơn vị tiền tệ
 ```js
