@@ -2,7 +2,7 @@
   "name": "blackcat-club",
   "version": "1.3.11",
   "description": "sử dụng bot discord v14 cực kỳ đơn giản với BlackCat-club",
-  "main": "./lib/BlackCat.js",
+  "main": "./lib/Check/BlackCat.js",
   "dependencies": {
     "@discordjs/voice": "^0.13.0",
     "@sapphire/async-queue": "^1.5.0",
