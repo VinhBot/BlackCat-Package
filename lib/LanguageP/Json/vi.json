@@ -16,8 +16,8 @@
          "addrole_7": "Bạn chưa chỉ định 1 id role hợp lệ"
        },
        "setMongoURL": {
-         "mongo_1": "Kết nối Mongodb thành công",
-         "mongo_2": "đã sảy ra lỗi khi kết nối mongodb"
+         "mongo_1": "Kết nối mongodb thành công",
+         "mongo_2": "đã sảy ra lỗi khi kết nối mongodb vui lòng kiểm tra lại liên kết của bạn."
        }
     },
     "Game": {
